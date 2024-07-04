@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="revou.css">
+</head>
+
+<body>
+    <nav>
+        <div class="logo">
+            <img src="logorevou.png" alt="Company Logo">
+        </div>
+        <ul>
+            <li><a href="#section1">Home</a></li>
+            <li><a href="#section2">My Profile</a></li>
+            <li><a href="#section2">Message Us</a></li>
+        </ul>
+    </nav>
+    <div id="section1" class="section">
+        <header class="full-width">
+            <h1 id="welcome-message">Hi, </h1>
+            <p>Ini adalah website latihan pertama</p>
+        </header>
+        <section class="banner full-width">
+            <img src="walpaper.jpeg" alt="Banner Image">
+        </section>
+    </div>
+    <div id="section2" class="Headquarter">
+        <section class="headquarters">
+            <h2>My Profile</h2>
+            <div class="locations">
+                <div class="location">
+                    <div class="circle" style="background-image:url(walpaper.jpeg);"></div>
+                    <p>Jakarta</p>
+                </div>
+                <div class="location">
+                    <div class="circle" style="background-image:url(walpaper.jpeg);"></div>
+                    <p>Bandung</p>
+                </div>
+                <div class="location">
+                    <div class="circle" style="background-image:url(walpaper.jpeg);"></div>
+                    <p>Surabaya</p>
+                </div>
+            </div>
+        </section>
+        </main>
+    </div>
+    </div>
+    <div id="section3" class="section">
+        <section class="message-us full-width">
+            <h2>Message Us</h2>
+            <div class="form-output-container">
+                <form id="message-form" class="form-half">
+                    <label for="name">Nama:</label>
+                    <input type="text" id="name" name="name" placeholder="Nama" required>
+
+                    <label for="dob">Tanggal Lahir:</label>
+                    <input type="date" id="dob" name="dob" required>
+
+                    <label for="gender">Jenis Kelamin:</label>
+                    <div class="gender">
+                        <input type="radio" id="male" name="gender" value="Laki-Laki" required>
+                        <label for="male">Laki-Laki</label>
+                        <input type="radio" id="female" name="gender" value="Perempuan" required>
+                        <label for="female">Perempuan</label>
+                    </div>
+
+                    <label for="message">Pesan:</label>
+                    <textarea id="message" name="message" placeholder="Pesan" required></textarea>
+
+                    <button type="submit">Submit</button>
+                </form>
+                <div class="output form-half">
+                    <h3>Current time: <span id="current-time"></span></h3>
+                    <p id="output"></p>
+                </div>
+            </div>
+        </section>
+    </div>
+    <footer>
+        <p>Created By RevoU</p>
+    </footer>
+
+    <script src="cscript.js"></script>
+</body>
+
+</html>

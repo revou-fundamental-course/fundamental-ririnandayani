@@ -1,0 +1,107 @@
+/* Reset and basic styling */
+body,
+h1,
+h2,
+p,
+ul,
+li,
+form,
+input,
+textarea,
+button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    line-height: 1.6;
+    background: #f4f4f4;
+    padding: 20px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #333;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+header .logo img {
+    height: 50px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+}
+
+header nav ul li {
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.welcome-section {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.headquarter-section {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.headquarter-locations {
+    display: flex;
+    justify-content: center;
+}
+
+.location {
+    background: #ddd;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10px;
+}
+
+.message-section {
+    background: #fff;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.message-section h2 {
+    margin-bottom: 10px;
+}
+
+.message-section form label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+.message-section form input,
+.message-section form textarea,
+.message-section form button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.message-section form button {
+    background: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
